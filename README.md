@@ -1,6 +1,6 @@
 # Sauce Demo BM Automation Task  
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 This task is for automating some Sauce Demo Website scenarios
 
