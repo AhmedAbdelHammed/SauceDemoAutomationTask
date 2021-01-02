@@ -1,0 +1,30 @@
+<suite name="BM Task Tests">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+
+    <test name="LoginTests">
+        <classes>
+            <class name="TestCases.LoginPage_LoginSuccess"/>
+        </classes>
+    </test>
+    <test name="ProductsPageTests">
+        <classes>
+            <class name="TestCases.ProductsPage_SortProducts"/>
+            <class name="TestCases.ProductsPage_CartTests"/>
+        </classes>
+    </test>
+
+    <test name="CheckoutTests">
+        <classes>
+            <class name="TestCases.CartPage_CheckoutTests"/>
+        </classes>
+    </test>
+
+    <test name="LogoutTest">
+        <classes>
+            <class name="TestCases.ProductsPage_Logout"/>
+        </classes>
+    </test>
+
+</suite>
